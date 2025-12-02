@@ -1,0 +1,8 @@
+(library
+ (name aoc_2025)
+ (public_name aoc_2025)
+ (libraries base parallel portable stdio)
+ (flags
+  (:standard -extension-universe beta))
+ (preprocess
+  (pps ppx_jane)))
