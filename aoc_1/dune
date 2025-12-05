@@ -1,0 +1,6 @@
+(executables
+ (modes exe)
+ (names aoc_1)
+ (libraries core_unix.command_unix core)
+ (preprocess
+  (pps ppx_jane)))
